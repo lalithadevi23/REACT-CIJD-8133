@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/*Header Section*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10;
+    width: auto;
+    background-color: rgb(189, 140, 49);
+    border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: -1px 4px 20px 14px rgb(153, 113, 2);
+    color: rgb(252, 247, 247);
+    font-weight:bold;
+}
+
+.logo-img{
+    padding-left:10px;
+    width:100px;
+}
+
+.nav-items{
+    padding: 0 10px 0;
+    width: auto;
+}
+.nav-items>ul{
+ list-style: none;
+ display: flex;
+}
+.nav-items>ul>li{
+    padding:50px 10px 0 0 ;
+    font-size:large;
+    cursor:pointer;
+}
+
+/*Body CSS*/
+.restaurant-list{
+    width:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.card{
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: -1px 4px 20px 14px rgba(241, 195, 7, 0.2);
+    padding:10px;
+    margin: 20px;
+    cursor: poniter;
+}
+
+.card>img{
+    width: 100%;
+    border-radius:10px;
+}
+.card >span{
+    display:flex;
+    justify-content: space-evenly;
+}
+.card>span>h4{
+    text-align: center;
+}
+.card >span> h4:first-child{
+    display: flex;
+    align-items: center;
+    background-color: rgb(183, 177, 6);
+    border-radius: 5px;
+    padding:0 5px 0;
+    color: azure;
+}
+
+.card.span.h4:first-child.fa-star{
+    font-size:small;
+    padding: 0 5px 3 px 0;
+}
+
+.footer{
+    margin: 10px;
+    width: auto;
+    text-align: center;
+    background-color:rgb(189, 140, 49);;
+    padding: 20px 10px 20px;
+    border-radius: 7px;
+    box-shadow: -1px 4px 20px 14px rgba(0,0,0,0.1);
+}
+.footer>i{
+    padding:0 5px 0;
+    font-size:smaller;
+}
+.fa-heart{
+    color: rgb(78, 49, 49);
+}
+.footer>strong{
+    padding-left: 6px;
+}
+.footer > strong > span{
+    color: rgb(237, 234, 23);
+}
